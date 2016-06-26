@@ -90,7 +90,10 @@ class Solarmovie(LoggingApp):
                                 # print vodlocker_mp4
 
                                 # global variable to be used in dlProgress
-                                print "%s;%s" % (vodlocker_mp4, video_title)
+                                output = "%s;%s" % (vodlocker_mp4, video_title)
+                                print output
+                                with open('file.lst', 'a+') as the_file:
+                                    the_file.write("%s\n" % (output))
                                 next_ep = True
 
 
