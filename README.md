@@ -1,17 +1,9 @@
 # solarmovies_extractor
 solarmovies extractor link
 
-clean the file.lst
-
-		> file.lst
-
 run the extractor 
 
-		./app.py
-
-run the download
-
-		./download.py
+		./app.py -u /tv/friends-1994/season-5/
 
 if you want you can open multiple terminal to download multiple file
 
